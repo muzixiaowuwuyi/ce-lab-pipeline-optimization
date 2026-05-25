@@ -3,13 +3,13 @@ variable "aws_region" {
   type        = string
   default     = "us-east-1"
 }
- 
+
 variable "project_name" {
   description = "Project name used in resource naming"
   type        = string
   default     = "pipeline-opt"
 }
- 
+
 variable "environment" {
   description = "Deployment environment"
   type        = string
